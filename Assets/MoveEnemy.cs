@@ -23,7 +23,9 @@ public class MoveEnemy : MonoBehaviour
         float pathLength = Vector3.Distance(startPosition, endPosition);
         float totalTimeForPath = pathLength / speed;
         float currentTimeOnPath = Time.time - lastWaypointSwitchTime;
-        gameObject.transform.position = Vector2.Lerp(startPosition, endPosition, currentTimeOnPath / totalTimeForPath);
+        float t = (totalTimeForPath > 0f) ? (currentTimeOnPath / totalTimeForPath) : 0f;
+        t = Mathf.Clamp01(t);
+        gameObject.transform.position = Vector2.Lerp(startPosition, endPosition, t);
 
         if (gameObject.transform.position.Equals(endPosition))
         {
