@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 4212781981624802425}
   - component: {fileID: 8885209682674563903}
   - component: {fileID: -5460108176515567067}
-  m_Layer: 0
+  - component: {fileID: 8303343920827944254}
+  - component: {fileID: 5522908752835990559}
+  m_Layer: 2
   m_Name: Monster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -157,6 +159,53 @@ MonoBehaviour:
     visualization: {fileID: 6744444512449383831}
     bullet: {fileID: 0}
     fireRate: 0
+--- !u!58 &8303343920827944254
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896443327609802154}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 3
+--- !u!114 &5522908752835990559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3896443327609802154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ea7f6a269fcae4fa03a1e74bee67a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6006386960598393032
 GameObject:
   m_ObjectHideFlags: 0
