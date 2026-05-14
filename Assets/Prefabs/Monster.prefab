@@ -149,16 +149,16 @@ MonoBehaviour:
   levels:
   - cost: 200
     visualization: {fileID: 7395008858885458841}
-    bullet: {fileID: 0}
-    fireRate: 0
+    bullet: {fileID: 4493844730309722058, guid: b805b63a85164884aaf5ed2a80fd15e4, type: 3}
+    fireRate: 1
   - cost: 110
     visualization: {fileID: 6006386960598393032}
-    bullet: {fileID: 0}
-    fireRate: 0
+    bullet: {fileID: 4493844730309722058, guid: 052d1e8c386017f4a99342ac730de682, type: 3}
+    fireRate: 1
   - cost: 120
     visualization: {fileID: 6744444512449383831}
-    bullet: {fileID: 0}
-    fireRate: 0
+    bullet: {fileID: 4493844730309722058, guid: 598da4093792a764ea2a966e7c21ff27, type: 3}
+    fireRate: 1
 --- !u!58 &8303343920827944254
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -206,6 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ea7f6a269fcae4fa03a1e74bee67a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemiesInRange: []
 --- !u!1 &6006386960598393032
 GameObject:
   m_ObjectHideFlags: 0

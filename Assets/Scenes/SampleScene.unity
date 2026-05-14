@@ -1689,12 +1689,12 @@ MonoBehaviour:
   gameOver: 0
   healthLabel: {fileID: 1563937914}
   health: 0
-  Tower: {fileID: 0}
-  health_4: {fileID: 0}
-  health_3: {fileID: 0}
-  health_2: {fileID: 0}
-  health_1: {fileID: 0}
-  health_0: {fileID: 0}
+  Tower: {fileID: 75258813}
+  health_4: {fileID: 21300000, guid: 72407f99a14f4f943a8c70f416b1f876, type: 3}
+  health_3: {fileID: 21300000, guid: ad498cac9c618184eb49b300111c4775, type: 3}
+  health_2: {fileID: 21300000, guid: e5b82119da25a874e8d9478ea85f39c8, type: 3}
+  health_1: {fileID: 21300000, guid: bfaf2017c722b0540a05bfcba951b879, type: 3}
+  health_0: {fileID: 21300000, guid: c3e97e09892478c4381a82d39b6990d6, type: 3}
 --- !u!4 &1163059550
 Transform:
   m_ObjectHideFlags: 0
